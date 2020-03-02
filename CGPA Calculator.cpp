@@ -16,10 +16,11 @@ int main()
 	cout<<"|         C+     "<<"  |  "<<"      5     "<<"  |  "<<"Average        |"<<endl;
 	cout<<"|         C      "<<"  |  "<<"      4     "<<"  |  "<<"Pass           |"<<endl;
 	cout<<"|         U      "<<"  |  "<<"      0     "<<"  |  "<<"Reappear/Absent|"<<endl;
-	cout<<"|________________"<<"__|__"<<"____________"<<"__|__"<<"_______________|"<<endl;
+	cout<<"|________________"<<"__|__"<<"____________"<<"__|__"<<"_______________|"<<endl<<endl<<endl;
 	do
 	{
 		int n;
+		cout<<"Note: Credit of a specific subject is nothing but total hours dedicated to that subject per week."<<endl<<endl;
 		cout<<"Enter no. of Subjects: ";
 		cin>>n;
 		int credit;
