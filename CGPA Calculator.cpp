@@ -28,7 +28,7 @@ int main()
 		int score[n];
 		for(int i=0;i<n;i++)
 		{
-			cout<<"Enter credit and grade subject "<<i+1<<": ";
+			cout<<"Enter credit and grade of subject "<<i+1<<": ";
 			cin>>credit>>grade;
 			if(grade=="O"||grade=="o")
 			{
